@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E081DF01E2D4733003941D2 /* Storyboardipad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E081DEF1E2D4733003941D2 /* Storyboardipad.storyboard */; };
+		3E081DF51E2D4998003941D2 /* ViewControllerIPadMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E081DF41E2D4998003941D2 /* ViewControllerIPadMain.swift */; };
+		3E081DF81E2D5CA9003941D2 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E081DF71E2D5CA9003941D2 /* CollectionViewCell.swift */; };
+		3E081DFA1E2D7946003941D2 /* CollectionViewCellApps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E081DF91E2D7946003941D2 /* CollectionViewCellApps.swift */; };
+		3E081DFC1E2D7958003941D2 /* ViewControllerApps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E081DFB1E2D7958003941D2 /* ViewControllerApps.swift */; };
+		3E081DFE1E2D97E4003941D2 /* ViewControllerDetalle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E081DFD1E2D97E4003941D2 /* ViewControllerDetalle.swift */; };
+		3E081E001E2DAB0D003941D2 /* ViewControllerMainIphone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E081DFF1E2DAB0D003941D2 /* ViewControllerMainIphone.swift */; };
 		3E41D3841E297C33009676BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E41D3831E297C33009676BC /* AppDelegate.swift */; };
 		3E41D3861E297C33009676BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E41D3851E297C33009676BC /* ViewController.swift */; };
 		3E41D3891E297C33009676BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E41D3871E297C33009676BC /* Main.storyboard */; };
@@ -14,6 +21,21 @@
 		3E41D38E1E297C33009676BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E41D38C1E297C33009676BC /* LaunchScreen.storyboard */; };
 		3E41D3991E297C33009676BC /* rappiTunesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E41D3981E297C33009676BC /* rappiTunesTests.swift */; };
 		3E41D3A41E297C33009676BC /* rappiTunesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E41D3A31E297C33009676BC /* rappiTunesUITests.swift */; };
+		3E41D3B21E29D984009676BC /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E41D3B11E29D984009676BC /* TableViewCell.swift */; };
+		3EBAB3531E2C87D7009A092F /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBAB3521E2C87D7009A092F /* ImageLoader.swift */; };
+		3EBAB3551E2C9AC4009A092F /* ViewControllerCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBAB3541E2C9AC4009A092F /* ViewControllerCategory.swift */; };
+		3EBAB3581E2C9EDE009A092F /* TableViewCellCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBAB3571E2C9EDE009A092F /* TableViewCellCategory.swift */; };
+		3EF384381E2B3AFE004183B0 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF3842E1E2B3AFE004183B0 /* FMDatabase.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3EF384391E2B3AFE004183B0 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF384301E2B3AFE004183B0 /* FMDatabaseAdditions.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3EF3843A1E2B3AFE004183B0 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF384321E2B3AFE004183B0 /* FMDatabasePool.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3EF3843B1E2B3AFE004183B0 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF384341E2B3AFE004183B0 /* FMDatabaseQueue.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3EF3843C1E2B3AFE004183B0 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF384371E2B3AFE004183B0 /* FMResultSet.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3EF3843F1E2B3D55004183B0 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EF3843E1E2B3D55004183B0 /* libsqlite3.tbd */; };
+		3EF384421E2B3FD2004183B0 /* utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF384411E2B3FD2004183B0 /* utilities.swift */; };
+		3EF384441E2B44B9004183B0 /* data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF384431E2B44B9004183B0 /* data.swift */; };
+		3EF384461E2B4544004183B0 /* modelDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EF384451E2B4544004183B0 /* modelDB.swift */; };
+		3EF384491E2B519B004183B0 /* bd_cache.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 3EF384481E2B519B004183B0 /* bd_cache.sqlite */; };
+		CCF9D98A0FA7CAEFDE0B9327 /* Pods_rappiTunes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4CBB70ED69F47AE52C48CBB /* Pods_rappiTunes.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +56,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1702CF37219E22D34365D000 /* Pods-rappiTunes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rappiTunes.release.xcconfig"; path = "Pods/Target Support Files/Pods-rappiTunes/Pods-rappiTunes.release.xcconfig"; sourceTree = "<group>"; };
+		3E081DEF1E2D4733003941D2 /* Storyboardipad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboardipad.storyboard; sourceTree = "<group>"; };
+		3E081DF41E2D4998003941D2 /* ViewControllerIPadMain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerIPadMain.swift; sourceTree = "<group>"; };
+		3E081DF71E2D5CA9003941D2 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		3E081DF91E2D7946003941D2 /* CollectionViewCellApps.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCellApps.swift; sourceTree = "<group>"; };
+		3E081DFB1E2D7958003941D2 /* ViewControllerApps.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerApps.swift; sourceTree = "<group>"; };
+		3E081DFD1E2D97E4003941D2 /* ViewControllerDetalle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerDetalle.swift; sourceTree = "<group>"; };
+		3E081DFF1E2DAB0D003941D2 /* ViewControllerMainIphone.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerMainIphone.swift; sourceTree = "<group>"; };
 		3E41D3801E297C33009676BC /* rappiTunes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rappiTunes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E41D3831E297C33009676BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3E41D3851E297C33009676BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +77,29 @@
 		3E41D39F1E297C33009676BC /* rappiTunesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rappiTunesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E41D3A31E297C33009676BC /* rappiTunesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rappiTunesUITests.swift; sourceTree = "<group>"; };
 		3E41D3A51E297C33009676BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E41D3B11E29D984009676BC /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		3EBAB3521E2C87D7009A092F /* ImageLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		3EBAB3541E2C9AC4009A092F /* ViewControllerCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerCategory.swift; sourceTree = "<group>"; };
+		3EBAB3571E2C9EDE009A092F /* TableViewCellCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCellCategory.swift; sourceTree = "<group>"; };
+		3EF3842D1E2B3AFE004183B0 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		3EF3842E1E2B3AFE004183B0 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		3EF3842F1E2B3AFE004183B0 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		3EF384301E2B3AFE004183B0 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		3EF384311E2B3AFE004183B0 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		3EF384321E2B3AFE004183B0 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		3EF384331E2B3AFE004183B0 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		3EF384341E2B3AFE004183B0 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		3EF384351E2B3AFE004183B0 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		3EF384361E2B3AFE004183B0 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		3EF384371E2B3AFE004183B0 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		3EF3843D1E2B3B7B004183B0 /* rappiTunes-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "rappiTunes-Bridging-Header.h"; sourceTree = "<group>"; };
+		3EF3843E1E2B3D55004183B0 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		3EF384411E2B3FD2004183B0 /* utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = utilities.swift; sourceTree = "<group>"; };
+		3EF384431E2B44B9004183B0 /* data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = data.swift; sourceTree = "<group>"; };
+		3EF384451E2B4544004183B0 /* modelDB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = modelDB.swift; sourceTree = "<group>"; };
+		3EF384481E2B519B004183B0 /* bd_cache.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = bd_cache.sqlite; sourceTree = "<group>"; };
+		4F9E601EFB7457048C7034F2 /* Pods-rappiTunes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-rappiTunes.debug.xcconfig"; path = "Pods/Target Support Files/Pods-rappiTunes/Pods-rappiTunes.debug.xcconfig"; sourceTree = "<group>"; };
+		A4CBB70ED69F47AE52C48CBB /* Pods_rappiTunes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_rappiTunes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +107,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EF3843F1E2B3D55004183B0 /* libsqlite3.tbd in Frameworks */,
+				CCF9D98A0FA7CAEFDE0B9327 /* Pods_rappiTunes.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +129,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B6F3F03F992FB57FC1174E3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4F9E601EFB7457048C7034F2 /* Pods-rappiTunes.debug.xcconfig */,
+				1702CF37219E22D34365D000 /* Pods-rappiTunes.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3E081DF11E2D491F003941D2 /* iphone */ = {
+			isa = PBXGroup;
+			children = (
+				3E41D3871E297C33009676BC /* Main.storyboard */,
+				3E081DFF1E2DAB0D003941D2 /* ViewControllerMainIphone.swift */,
+				3E41D3851E297C33009676BC /* ViewController.swift */,
+				3EBAB3541E2C9AC4009A092F /* ViewControllerCategory.swift */,
+				3EBAB3561E2C9EBC009A092F /* cellView */,
+			);
+			name = iphone;
+			sourceTree = "<group>";
+		};
+		3E081DF21E2D494A003941D2 /* librery */ = {
+			isa = PBXGroup;
+			children = (
+				3EF3842B1E2B3AE4004183B0 /* FMDB */,
+			);
+			name = librery;
+			sourceTree = "<group>";
+		};
+		3E081DF31E2D495D003941D2 /* ipad */ = {
+			isa = PBXGroup;
+			children = (
+				3E081DEF1E2D4733003941D2 /* Storyboardipad.storyboard */,
+				3E081DF41E2D4998003941D2 /* ViewControllerIPadMain.swift */,
+				3E081DFB1E2D7958003941D2 /* ViewControllerApps.swift */,
+				3E081DFD1E2D97E4003941D2 /* ViewControllerDetalle.swift */,
+				3E081DF61E2D5C92003941D2 /* collectionCell */,
+			);
+			name = ipad;
+			sourceTree = "<group>";
+		};
+		3E081DF61E2D5C92003941D2 /* collectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				3E081DF71E2D5CA9003941D2 /* CollectionViewCell.swift */,
+				3E081DF91E2D7946003941D2 /* CollectionViewCellApps.swift */,
+			);
+			name = collectionCell;
+			sourceTree = "<group>";
+		};
 		3E41D3771E297C33009676BC = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +186,8 @@
 				3E41D3971E297C33009676BC /* rappiTunesTests */,
 				3E41D3A21E297C33009676BC /* rappiTunesUITests */,
 				3E41D3811E297C33009676BC /* Products */,
+				3B6F3F03F992FB57FC1174E3 /* Pods */,
+				A4D5B5F82EC3DE511A6DB097 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +204,16 @@
 		3E41D3821E297C33009676BC /* rappiTunes */ = {
 			isa = PBXGroup;
 			children = (
+				3E081DF21E2D494A003941D2 /* librery */,
+				3EBAB3591E2CAEF2009A092F /* model */,
+				3E081DF31E2D495D003941D2 /* ipad */,
+				3E081DF11E2D491F003941D2 /* iphone */,
 				3E41D3831E297C33009676BC /* AppDelegate.swift */,
-				3E41D3851E297C33009676BC /* ViewController.swift */,
-				3E41D3871E297C33009676BC /* Main.storyboard */,
 				3E41D38A1E297C33009676BC /* Assets.xcassets */,
 				3E41D38C1E297C33009676BC /* LaunchScreen.storyboard */,
 				3E41D38F1E297C33009676BC /* Info.plist */,
+				3EF384481E2B519B004183B0 /* bd_cache.sqlite */,
+				3EF3843D1E2B3B7B004183B0 /* rappiTunes-Bridging-Header.h */,
 			);
 			path = rappiTunes;
 			sourceTree = "<group>";
@@ -125,6 +236,53 @@
 			path = rappiTunesUITests;
 			sourceTree = "<group>";
 		};
+		3EBAB3561E2C9EBC009A092F /* cellView */ = {
+			isa = PBXGroup;
+			children = (
+				3E41D3B11E29D984009676BC /* TableViewCell.swift */,
+				3EBAB3571E2C9EDE009A092F /* TableViewCellCategory.swift */,
+			);
+			name = cellView;
+			sourceTree = "<group>";
+		};
+		3EBAB3591E2CAEF2009A092F /* model */ = {
+			isa = PBXGroup;
+			children = (
+				3EF384411E2B3FD2004183B0 /* utilities.swift */,
+				3EF384431E2B44B9004183B0 /* data.swift */,
+				3EF384451E2B4544004183B0 /* modelDB.swift */,
+				3EBAB3521E2C87D7009A092F /* ImageLoader.swift */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		3EF3842B1E2B3AE4004183B0 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				3EF3842D1E2B3AFE004183B0 /* FMDatabase.h */,
+				3EF3842E1E2B3AFE004183B0 /* FMDatabase.m */,
+				3EF3842F1E2B3AFE004183B0 /* FMDatabaseAdditions.h */,
+				3EF384301E2B3AFE004183B0 /* FMDatabaseAdditions.m */,
+				3EF384311E2B3AFE004183B0 /* FMDatabasePool.h */,
+				3EF384321E2B3AFE004183B0 /* FMDatabasePool.m */,
+				3EF384331E2B3AFE004183B0 /* FMDatabaseQueue.h */,
+				3EF384341E2B3AFE004183B0 /* FMDatabaseQueue.m */,
+				3EF384351E2B3AFE004183B0 /* FMDB.h */,
+				3EF384361E2B3AFE004183B0 /* FMResultSet.h */,
+				3EF384371E2B3AFE004183B0 /* FMResultSet.m */,
+			);
+			name = FMDB;
+			sourceTree = "<group>";
+		};
+		A4D5B5F82EC3DE511A6DB097 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3EF3843E1E2B3D55004183B0 /* libsqlite3.tbd */,
+				A4CBB70ED69F47AE52C48CBB /* Pods_rappiTunes.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +290,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3E41D3A81E297C33009676BC /* Build configuration list for PBXNativeTarget "rappiTunes" */;
 			buildPhases = (
+				E6180BC8C900D7258D375922 /* [CP] Check Pods Manifest.lock */,
 				3E41D37C1E297C33009676BC /* Sources */,
 				3E41D37D1E297C33009676BC /* Frameworks */,
 				3E41D37E1E297C33009676BC /* Resources */,
+				55E8CF5A1CB5CCF8DBF9D0CC /* [CP] Embed Pods Frameworks */,
+				FD9ECC7F1AA0D651B5BB9DF2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +354,8 @@
 				TargetAttributes = {
 					3E41D37F1E297C33009676BC = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = HGQ8W469GT;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					3E41D3931E297C33009676BC = {
@@ -232,8 +395,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EF384491E2B519B004183B0 /* bd_cache.sqlite in Resources */,
 				3E41D38E1E297C33009676BC /* LaunchScreen.storyboard in Resources */,
 				3E41D38B1E297C33009676BC /* Assets.xcassets in Resources */,
+				3E081DF01E2D4733003941D2 /* Storyboardipad.storyboard in Resources */,
 				3E41D3891E297C33009676BC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,13 +419,79 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		55E8CF5A1CB5CCF8DBF9D0CC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-rappiTunes/Pods-rappiTunes-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6180BC8C900D7258D375922 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FD9ECC7F1AA0D651B5BB9DF2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-rappiTunes/Pods-rappiTunes-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3E41D37C1E297C33009676BC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E081E001E2DAB0D003941D2 /* ViewControllerMainIphone.swift in Sources */,
+				3E41D3B21E29D984009676BC /* TableViewCell.swift in Sources */,
+				3EF3843B1E2B3AFE004183B0 /* FMDatabaseQueue.m in Sources */,
+				3EBAB3551E2C9AC4009A092F /* ViewControllerCategory.swift in Sources */,
+				3EBAB3581E2C9EDE009A092F /* TableViewCellCategory.swift in Sources */,
 				3E41D3861E297C33009676BC /* ViewController.swift in Sources */,
+				3EF384441E2B44B9004183B0 /* data.swift in Sources */,
+				3EF384381E2B3AFE004183B0 /* FMDatabase.m in Sources */,
+				3EF3843A1E2B3AFE004183B0 /* FMDatabasePool.m in Sources */,
+				3EF384461E2B4544004183B0 /* modelDB.swift in Sources */,
+				3EF384421E2B3FD2004183B0 /* utilities.swift in Sources */,
+				3E081DFC1E2D7958003941D2 /* ViewControllerApps.swift in Sources */,
+				3E081DF81E2D5CA9003941D2 /* CollectionViewCell.swift in Sources */,
+				3EF3843C1E2B3AFE004183B0 /* FMResultSet.m in Sources */,
 				3E41D3841E297C33009676BC /* AppDelegate.swift in Sources */,
+				3E081DFA1E2D7946003941D2 /* CollectionViewCellApps.swift in Sources */,
+				3E081DFE1E2D97E4003941D2 /* ViewControllerDetalle.swift in Sources */,
+				3EF384391E2B3AFE004183B0 /* FMDatabaseAdditions.m in Sources */,
+				3E081DF51E2D4998003941D2 /* ViewControllerIPadMain.swift in Sources */,
+				3EBAB3531E2C87D7009A092F /* ImageLoader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,24 +641,37 @@
 		};
 		3E41D3A91E297C33009676BC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F9E601EFB7457048C7034F2 /* Pods-rappiTunes.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = HGQ8W469GT;
 				INFOPLIST_FILE = rappiTunes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = PP.rappiTunes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "rappiTunes/rappiTunes-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		3E41D3AA1E297C33009676BC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1702CF37219E22D34365D000 /* Pods-rappiTunes.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = HGQ8W469GT;
 				INFOPLIST_FILE = rappiTunes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = PP.rappiTunes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "rappiTunes/rappiTunes-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -505,6 +749,7 @@
 				3E41D3AA1E297C33009676BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3E41D3AB1E297C33009676BC /* Build configuration list for PBXNativeTarget "rappiTunesTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +758,7 @@
 				3E41D3AD1E297C33009676BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3E41D3AE1E297C33009676BC /* Build configuration list for PBXNativeTarget "rappiTunesUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +767,7 @@
 				3E41D3B01E297C33009676BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
